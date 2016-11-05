@@ -1,0 +1,5 @@
+﻿CREATE VIEW Top10OIPuts02
+AS
+SELECT LastDayOI.Strike, LastDayOI.PutsOI
+FROM   [LastDayOI]
+ORDER BY LastDayOI.PutsOI DESC LIMIT 10;
